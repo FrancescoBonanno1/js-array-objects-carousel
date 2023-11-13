@@ -8,11 +8,11 @@ body{
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .container{
-    background-color: aqua;
     width: 35%;
     height: 70%;
     position: relative;
@@ -35,4 +35,7 @@ position: absolute;
 right: 50%;
 bottom: 5%;
 color: crimson;
+}
+.none{
+    display: none;
 }
