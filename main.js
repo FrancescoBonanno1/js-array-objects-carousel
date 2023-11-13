@@ -22,12 +22,20 @@ const images = [
     }
 ];
 
-let immaginesingola =[];
 
 for (let i = 0; i < images.length; i++) {
-    immaginesingola = images[i];
-    console.log(immaginesingola);
+    document.getElementById("stablecontainer").innerHTML += `<div id="container">
+  <img id="img" src="${images[i].image}" alt="">
+  <p class="desc1">${images[i].title}</p>
+  <p class="desc2">${images[i].text}</p>
+</div>`;
+  
+}
+let scorrimento = 
+console.log(scorrimento);
+     if(scorrimento <images.length) {
+    document.getElementById("next").addEventListener("click", function(){
+        console.log("next");
     
-    
-    
+    })
 }
